@@ -1,12 +1,12 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import InfiniteScrollC from "./InfiniteScrollC/InfiniteScrollC";
+import ImageGallery from "./ImageGallery/ImageGallery";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path={"/"} element={<InfiniteScrollC />} />
+        <Route exact path={"/"} element={<ImageGallery />} />
       </Routes>
     </div>
   );

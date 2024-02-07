@@ -1,12 +1,12 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import ImageGallery from "./ImageGallery/ImageGallery";
+import { Example1 } from "./Example1";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path={"/"} element={<ImageGallery />} />
+        <Route exact path={"/"} element={<Example1 />} />
       </Routes>
     </div>
   );
